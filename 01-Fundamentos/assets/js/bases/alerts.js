@@ -7,11 +7,11 @@ let nombre = prompt('¿Cual es tu nombre?');
  * Las variables vacias no tiene ningun dato almacenado pero,
  * no quiere decir que sean nulas... la siguiente impresion en pantalla lo explica mejor
  * 
- * si no anotamos ningun nombre solo se mostraran los asteriscos indicanco que es una variable vacia, pero si cancelamos se mostrara un null
+ * si no anotamos ningun nombre solo se mostraran los asteriscos indicando que es una variable vacia, pero si cancelamos se mostrara un null
  */
- console.log( '**' + nombre + '**' );
+console.log( '**' + nombre + '**' );
 
- let seleccion = confirm('¿Estas seguro de lo que quieres hacer?');
- console.log( seleccion );
+let seleccion = confirm('¿Estas seguro de lo que quieres hacer?');
+console.log( seleccion );
 
  // console.log( global );

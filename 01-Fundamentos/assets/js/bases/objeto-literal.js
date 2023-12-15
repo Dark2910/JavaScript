@@ -16,7 +16,7 @@ const personaje = {
 
     /**
      * Esta propiedad se decralara como una cadena por la razón del espacio que lleva, 
-     * por sintaxis es recomendable utilizar un guión _, pero tambien esta permitido utilizar el signo de dollar $ o uno guión bajo _
+     * por sintaxis es recomendable utilizar un guión -, pero tambien esta permitido utilizar el signo de dollar $ o uno guión bajo _
      */
     'Ultima-pelicula': 'Infinity War'
 };

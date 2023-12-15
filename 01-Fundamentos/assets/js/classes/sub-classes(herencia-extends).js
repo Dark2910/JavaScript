@@ -7,7 +7,7 @@ class Persona{
     static mensaje(){
         console.log('Hola, soy un método estático');
     }
- 
+
     nombre = '';
     codigo = '';
     frase = '';
@@ -39,6 +39,10 @@ class Persona{
     
 }
 
+/**
+ * Cuando es usado en un constructor, la palabra clave super aparece sola lo cual invoca el constructor del objeto padre.
+ *  En este caso debe usarse antes de que la palabra clave this sea usada. La palabra clave super también puede utilizarse para llamar otras funciones del objeto padre.
+ */
 class Heroe extends Persona {
     clan = '';
     

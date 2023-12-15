@@ -8,7 +8,7 @@ nombre = `Eduardo`;
 console.log(nombre);
 console.log( typeof nombre );
 
-// Aquí podemos observar como una variable muta por el tipo de dato que alamcena, pasa de string a number
+// Aquí podemos observar como una variable muta por el tipo de dato que almacena, pasa de string a number
 nombre = 123;
 console.log(nombre);
 console.log( typeof nombre );
